@@ -13,7 +13,7 @@ const AboutUs = ({ setPage }) => {
       </div>
 
       {/* Main Philosophy Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '50px', marginBottom: '80px', alignItems: 'center' }}>
+      <div className="responsive-grid-2" style={{ marginBottom: '80px', alignItems: 'center' }}>
         <div>
           <h2 style={{ fontSize: '28px', marginBottom: '20px', color: '#1A202C' }}>
             The Best Luxury Real Estate in North Carolina
@@ -49,7 +49,7 @@ const AboutUs = ({ setPage }) => {
       </div>
 
       {/* Founder Section */}
-      <div className="card-glass" style={{ padding: '50px', display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '50px', alignItems: 'center' }}>
+      <div className="card-glass responsive-grid-2" style={{ padding: '30px', alignItems: 'center' }}>
         <div>
           <span style={{ color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '12px', fontWeight: '700' }}>
             Executive Leadership

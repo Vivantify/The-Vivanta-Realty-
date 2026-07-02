@@ -33,7 +33,7 @@ const GetPrequalified = () => {
           Why Choose Karthik Mortgage?
         </h2>
         
-        <div className="cta-container" style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '50px', alignItems: 'center' }}>
+        <div className="cta-grid-container">
           {/* Left Side: List of Benefits */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>

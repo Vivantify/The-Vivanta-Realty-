@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.3fr', gap: '50px', alignItems: 'start' }}>
+      <div className="contact-grid">
         {/* Contact Info Side */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
           <div className="card-glass" style={{ padding: '30px' }}>

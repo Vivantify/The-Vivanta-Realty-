@@ -104,7 +104,7 @@ const Home = ({ setPage }) => {
 
       {/* Meet Advisor Section */}
       <section className="section-padding">
-        <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '50px', alignItems: 'center' }}>
+        <div className="container advisor-grid">
           <div style={{ borderRadius: 'var(--border-radius)', overflow: 'hidden', height: '450px', border: '1px solid var(--border)' }}>
             <img
               src="/karthik.jpg"
@@ -145,7 +145,7 @@ const Home = ({ setPage }) => {
             <div style={{ width: '60px', height: '3px', backgroundColor: 'var(--primary)', margin: '0 auto' }} />
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px' }}>
+          <div className="reviews-grid">
             {/* Review 1 */}
             <div className="card-glass" style={{ padding: '30px' }}>
               <div className="stars">
